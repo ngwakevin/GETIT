@@ -11,14 +11,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         body {
-            background-color: #121212;
-            color: white;
+            background-color: #f9f4ef; /* Light pastel background */
+            color: #333; /* Darker text for readability */
+        }
+        .navbar {
+            background-color: #ffb3c1; /* Pastel pink */
+        }
+        .navbar-brand, .nav-link {
+            color: white !important; /* White text for contrast */
+        }
+        .btn-primary {
+            background-color: #88d8b0; /* Pastel green */
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #6bb893; /* Slightly darker on hover */
+        }
+        label {
+            color: #555; /* Softer text for form labels */
         }
     </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">GETIT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,8 +51,8 @@
 
     <!-- Main Content -->
     <div class="container mt-5">
-        <h1 class="text-center">Contact Us</h1>
-        <p class="text-center">Have questions or need assistance? Reach out to us using the form below.</p>
+        <h1 class="text-center" style="color: #ff6f61;">Contact Us</h1> <!-- Pastel coral -->
+        <p class="text-center" style="color: #555;">Have questions or need assistance? Reach out to us using the form below.</p>
         <form class="mt-4">
             <div class="form-group">
                 <label for="name">Your Name</label>
@@ -55,4 +71,3 @@
     </div>
 </body>
 </html>
-
